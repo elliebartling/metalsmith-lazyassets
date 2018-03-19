@@ -4,7 +4,8 @@
 This is a plugin for [Metalsmith](http://metasmith.io/) that copies images — wherever they are in your filesystem — into your build folder. If you're using a markdown editor like Bear to edit your content, you no longer need to worry about where your inline images are actually saved. LazyAssets will find the file, copy it to the assets folder, and update your `<img>` tags' src.
 
 For example, take this sample `index.md`:
-![](./img/Screenshot 2018-03-19 15.15.30.png)
+
+![cute-fox](https://github.com/elliebartling/metalsmith-lazyassets/blob/master/img/Screenshot%202018-03-19%2015.15.30.png)
 
 Cute fox! Do you remember where you saved him? If you're using LazyAssets, it doesn't matter if he's properly saved in your `src/assets/` folder, saved neatly in Dropbox, or randomly tossed into Downloads (which isn't optimal, but let's be real — it happens). LazyAssets will copy him into your build folder and update his `src` attribute automatically.
 
