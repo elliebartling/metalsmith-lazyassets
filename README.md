@@ -1,13 +1,9 @@
-<center>
+<div style="text-align: center">
 
 # lazyassets for metalsmith
-<br/>
-
-----
-
-</br>
-
 **The lazy person's asset management plugin for Metalsmith.**
+</div>
 
-</center>
+
+
 
